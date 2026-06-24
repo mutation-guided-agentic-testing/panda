@@ -34,3 +34,6 @@ packages/studio/src/lib/analysis.json
 storybook-static
 
 coverage
+
+# stryker temp files
+.stryker-tmp
