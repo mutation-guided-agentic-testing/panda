@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { defineConfig } from 'vitest/config'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import virtual from 'vite-plugin-virtual'
@@ -27,6 +28,7 @@ export default defineConfig({
       '**/.{idea,git,cache,output,temp}/**',
       '**/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build}.config.*',
       'sandbox/codegen/__tests__/frameworks',
+      '**/.stryker-tmp/**',
     ],
   },
   resolve: {
